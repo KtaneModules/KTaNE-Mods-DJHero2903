@@ -1,0 +1,15 @@
+{
+  "Author": "DJHero2903",
+  "Compatibility": "Compatible",
+  "DefuserDifficulty": "VeryEasy",
+  "Description": "Go down the list of indicators and press the coloured button of the 1st applicable rule.",
+  "ExpertDifficulty": "VeryEasy",
+  "ModuleID": "ColouredButtons",
+  "Name": "Coloured Buttons",
+  "Origin": "Mods",
+  "Published": "2020-08-08",
+  "SortKey": "COLOUREDBUTTONS",
+  "SteamID": "2191606122",
+  "Symbol": "Cb",
+  "Type": "Regular"
+}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
+  m_Name: ModConfig
+  m_EditorClassIdentifier: 
+  id: TheExplodingPen
+  title: The Exploding Pen
+  author: DJHero2903
+  description: "The Exploding Pen v1.1 (TP Supported.)\r\nSee the changes made by
+    eXish here: https://github.com/DJHero2903/KTaNE-Mod-The-Exploding-Pen/commit/d6e9690c186b9271156bf2b2f596ec78fb8fc0e3\n\nAre
+    you taking notes yet?\r\n\r\nModule ID: TheExplodingPen\r\n\r\nCreated by: DJHero2903\r\nIdea
+    by: Trigger\r\n\r\nI would like to give a big thank you to IQuick 143 in the KTaNE
+    modding discord server for doing the 3D model of the pen as well as helping me
+    create the manual.\r\nAlso thank you to Qkrisi, River, Marksam and noi2coco from
+    the KtaNE modding discord server for answering all my questions when I needed
+    help with the scripting.\r\n\r\nHTML Manual will soon be available here: https://ktane.timwi.de/HTML/The%20Exploding%20Pen.html\r\n\r\nGet
+    the PDF now here: https://github.com/DJHero2903/KTaNE-Mod-The-Exploding-Pen/blob/main/Manual/pdfs/Modules/The%20Exploding%20Pen.pdf"
+  version: 1.1
+  outputFolder: build
+  previewImage: {fileID: 2800000, guid: e8f6c26b5163a364fbbe4dac9f91d183, type: 3}
