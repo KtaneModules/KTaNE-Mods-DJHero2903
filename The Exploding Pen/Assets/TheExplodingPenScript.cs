@@ -155,7 +155,7 @@ public class TheExplodingPenScript : MonoBehaviour {
                     yield return "sendtochat Halted pressing the pen due to a change in the seconds digits of the bomb timer. Successfully pressed the pen " + i + " times before halting.";
                 }
                 Pen.OnInteract();
-                yield return new WaitForSeconds(0.1f);
+                //yield return new WaitForSeconds(0.1f);
             }
         }
 
