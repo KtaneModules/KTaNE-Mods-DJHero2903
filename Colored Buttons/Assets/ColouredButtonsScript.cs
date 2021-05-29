@@ -23,6 +23,19 @@ public class ColouredButtonsScript : MonoBehaviour
 	public KMSelectable Grey_Button;
 	public KMSelectable Black_Button;
 
+	public MeshRenderer Red_Button_Render;
+	public MeshRenderer Orange_Button_Render;
+	public MeshRenderer Yellow_Button_Render;
+	public MeshRenderer Green_Button_Render;
+	public MeshRenderer Blue_Button_Render;
+	public MeshRenderer Cyan_Button_Render;
+	public MeshRenderer Purple_Button_Render;
+	public MeshRenderer Magenta_Button_Render;
+	public MeshRenderer Brown_Button_Render;
+	public MeshRenderer Tan_Button_Render;
+	public MeshRenderer Grey_Button_Render;
+	public MeshRenderer Black_Button_Render;
+
 	//Logging
 	static int moduleIdCounter = 1;
 	int moduleId;
@@ -224,7 +237,8 @@ public class ColouredButtonsScript : MonoBehaviour
 			Debug.LogFormat("[Coloured Button Pad #{0}] You Pressed The Red Button, The Correct Answer Is: "+ SolutionColour +", Solved!", moduleId);
 			GetComponent<KMBombModule>().HandlePass();
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);
-			Solved = true;	
+			Solved = true;
+			SolvedColor();	
 			}
 			
 			else
@@ -251,7 +265,8 @@ public class ColouredButtonsScript : MonoBehaviour
 			Debug.LogFormat("[Coloured Button Pad #{0}] You Pressed The Orange Button, The Correct Answer Is: "+ SolutionColour +", Solved!", moduleId);
 			GetComponent<KMBombModule>().HandlePass();
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);
-			Solved = true;	
+			Solved = true;
+			SolvedColor();	
 			}
 			
 			else
@@ -278,7 +293,8 @@ public class ColouredButtonsScript : MonoBehaviour
 			Debug.LogFormat("[Coloured Button Pad #{0}] You Pressed The Yellow Button, The Correct Answer Is: "+ SolutionColour +", Solved!", moduleId);
 			GetComponent<KMBombModule>().HandlePass();
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);
-			Solved = true;	
+			Solved = true;
+			SolvedColor();	
 			}
 			
 			else
@@ -306,6 +322,7 @@ public class ColouredButtonsScript : MonoBehaviour
 			GetComponent<KMBombModule>().HandlePass();	
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);
 			Solved = true;
+			SolvedColor();
 			}
 			
 			else
@@ -333,6 +350,7 @@ public class ColouredButtonsScript : MonoBehaviour
 			GetComponent<KMBombModule>().HandlePass();
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);	
 			Solved = true;
+			SolvedColor();
 			}
 			
 			else
@@ -360,6 +378,7 @@ public class ColouredButtonsScript : MonoBehaviour
 			GetComponent<KMBombModule>().HandlePass();
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);	
 			Solved = true;
+			SolvedColor();
 			}
 			
 			else
@@ -387,6 +406,7 @@ public class ColouredButtonsScript : MonoBehaviour
 			GetComponent<KMBombModule>().HandlePass();
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);	
 			Solved = true;
+			SolvedColor();
 			}
 			
 			else
@@ -413,7 +433,8 @@ public class ColouredButtonsScript : MonoBehaviour
 			Debug.LogFormat("[Coloured Button Pad #{0}] You Pressed The Magenta Button, The Correct Answer Is: "+ SolutionColour +", Solved!", moduleId);
 			GetComponent<KMBombModule>().HandlePass();
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);
-			Solved = true;	
+			Solved = true;
+			SolvedColor();	
 			}
 			
 			else
@@ -441,6 +462,7 @@ public class ColouredButtonsScript : MonoBehaviour
 			GetComponent<KMBombModule>().HandlePass();
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);
 			Solved = true;	
+			SolvedColor();
 			}
 			
 			else
@@ -468,6 +490,7 @@ public class ColouredButtonsScript : MonoBehaviour
 			GetComponent<KMBombModule>().HandlePass();
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);
 			Solved = true;	
+			SolvedColor();
 			}
 			
 			else
@@ -495,6 +518,7 @@ public class ColouredButtonsScript : MonoBehaviour
 			GetComponent<KMBombModule>().HandlePass();
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);
 			Solved = true;	
+			SolvedColor();
 			}
 			
 			else
@@ -522,6 +546,7 @@ public class ColouredButtonsScript : MonoBehaviour
 			GetComponent<KMBombModule>().HandlePass();
 			Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.CorrectChime, transform);
 			Solved = true;	
+			SolvedColor();
 			}
 			
 			else
@@ -537,5 +562,19 @@ public class ColouredButtonsScript : MonoBehaviour
 
 			}
 		}
-
+		void SolvedColor()
+		{
+			Red_Button_Render.material.color = new Color32(0, 160, 0, 255);
+			Orange_Button_Render.material.color = new Color32(0, 160, 0, 255);
+			Yellow_Button_Render.material.color = new Color32(0, 160, 0, 255);
+			Green_Button_Render.material.color = new Color32(0, 160, 0, 255);
+			Blue_Button_Render.material.color = new Color32(0, 160, 0, 255);
+			Cyan_Button_Render.material.color = new Color32(0, 160, 0, 255);
+			Purple_Button_Render.material.color = new Color32(0, 160, 0, 255);
+			Magenta_Button_Render.material.color = new Color32(0, 160, 0, 255);
+			Brown_Button_Render.material.color = new Color32(0, 160, 0, 255);
+			Tan_Button_Render.material.color = new Color32(0, 160, 0, 255);
+			Grey_Button_Render.material.color = new Color32(0, 160, 0, 255);
+			Black_Button_Render.material.color = new Color32(0, 160, 0, 255);
+		}
 }
