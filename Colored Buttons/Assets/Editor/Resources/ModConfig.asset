@@ -19,6 +19,6 @@ MonoBehaviour:
     button of the 1st applicable rule.\r\n\r\nTwitch Plays Supported.\r\n\r\nSource
     Code: https://github.com/DJHero2903/KTaNE-Mod-Colored-Buttons\r\n------------------------------------------------------------------------------------------------------\r\n\r\nManual:\r\nHTML:
     https://ktane.timwi.de/HTML/Colored%20Buttons.html\r\n\r\nPDF: https://ktane.timwi.de/PDF/Colored%20Buttons.pdf\r\n------------------------------------------------------------------------------------------------------"
-  version: 1.4
+  version: 1.5
   outputFolder: build
   previewImage: {fileID: 2800000, guid: a1f8b01d91afe5e4c88f1e05981a7cb8, type: 3}

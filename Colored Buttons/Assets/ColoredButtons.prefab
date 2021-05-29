@@ -1990,6 +1990,18 @@ MonoBehaviour:
   Tan_Button: {fileID: 114893139760723438}
   Grey_Button: {fileID: 114585374349812442}
   Black_Button: {fileID: 114184391447754660}
+  Red_Button_Render: {fileID: 23459444273796910}
+  Orange_Button_Render: {fileID: 23511612793614318}
+  Yellow_Button_Render: {fileID: 23079260707721658}
+  Green_Button_Render: {fileID: 23224096684250418}
+  Blue_Button_Render: {fileID: 23122090390223020}
+  Cyan_Button_Render: {fileID: 23649518007486954}
+  Purple_Button_Render: {fileID: 23388762904207470}
+  Magenta_Button_Render: {fileID: 23152375377175018}
+  Brown_Button_Render: {fileID: 23352256774142438}
+  Tan_Button_Render: {fileID: 23882702365236280}
+  Grey_Button_Render: {fileID: 23817475123764550}
+  Black_Button_Render: {fileID: 23535651097504398}
   TwitchHelpMessage: 'Press a button with !{0} <Colour>, // Valid Colours are: Red,
     Orange, Yellow, Green, Blue, Cyan, Purple, Magenta, Brown, Tan, Grey, Black.'
 --- !u!114 &114583499315038180
