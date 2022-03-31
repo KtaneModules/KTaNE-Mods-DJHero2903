@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: WhatEdgework
+  m_EditorClassIdentifier: 
+  DisplayName: What's Edgework?
+  Description: Who Needs Edgework?
+  GeneratorSetting:
+    TimeLimit: 3600
+    NumStrikes: 3
+    TimeBeforeNeedyActivation: 90
+    FrontFaceOnly: 0
+    OptionalWidgetCount: 10
+    ComponentPools:
+    - Count: 2
+      AllowedSources: 1
+      ComponentTypes: 040000000c0000000a000000070000000800000006000000
+      SpecialComponentType: 0
+      ModTypes: []
+    - Count: 1
+      AllowedSources: 3
+      ComponentTypes: 0f000000
+      SpecialComponentType: 0
+      ModTypes:
+      - alphabeticOrder
+      - Needy Math
+      - NeedyBeer
+      - NeedyKnobV2
+    - Count: 1
+      AllowedSources: 2
+      ComponentTypes: 0b000000
+      SpecialComponentType: 0
+      ModTypes:
+      - HexiEvilFMN
+      - forgetThis
+      - simonsStages
+      - forgetEnigma
+      - forgetItNot
+      - forgetMeLater
+    - Count: 3
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - theSwan
+      - SouvenirModule
+      - TurnTheKey
+      - TurnTheKeyAdvanced
+      - timingIsEverything
+      - iconic
+      - encryptionBingo
+    - Count: 3
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - 100LevelsOfDefusal
+      - pigpenCycle
+      - jumbleCycle
+      - hillCycle
+      - affineCycle
+      - playfairCycle
+      - violetCipher
+      - caesarCycle
+    - Count: 3
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - simonStages
+      - SimonSendsModule
+      - simonsStar
+      - simonSimons
+      - simonSamples
+    - Count: 4
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - JuxtacoloredSquaresModule
+      - ColoredSquaresModule
+      - UncoloredSquaresModule
+      - DecoloredSquaresModule
+      - ColourFlash
+      - orangeArrowsModule
+      - purpleArrowsModule
+      - WhiteArrows
+      - greenArrowsModule
+      - ColoredSwitchesModule
+      - tealArrowsModule
+      - ColorfulInsanity
+    - Count: 4
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - ModuleMaze
+      - crystalMaze
+      - HexamazeModule
+      - NotMaze
+      - NotSimaze
+      - MarbleTumbleModule
+      - PolyhedralMazeModule
+      - MouseInTheMaze
+    - Count: 4
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - NotKeypad
+      - NotMorseCode
+      - NotWireSequence
+      - symbolicPasswordModule
+      - buttonSequencesModule
+      - symbolicCoordinates
+    - Count: 15
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - sevenDeadlySins
+      - punctuationMarks
+      - Questionmark
+      - AdjacentLettersModule
+      - OneThousandWords
+      - CryptModule
+      - jukebox
+      - festiveJukebox
+      - ledGrid
+      - TheClockModule
+      - visual_impairment
+      - identityParade
+      - GameOfLifeSimple
+      - PatternCubeModule
+      - 3dTunnels
+      - graffitiNumbers
+      - ChordQualities
+      - britishSlang
+      - ColorMorseModule
+      - DoubleOhModule
+      - CursedDoubleOhModule
+      - ExtendedPassword
+      - LEDEnc
+      - countdown
+      - europeanTravel
+      - DateFinder
+      - FriendshipModule
+      - GridMatching
+      - MaritimeFlagsModule
+      - mashematics
+    - Count: 15
+      AllowedSources: 2
+      ComponentTypes: 
+      SpecialComponentType: 0
+      ModTypes:
+      - colourTalk
+      - Tangrams
+      - 7
+      - OneHundredAndOneDalmatiansModule
+      - triangle
+      - hangover
+      - labyrinth
+      - switchModule
+      - harmonySequence
+      - SimpleButton
+      - OddOneOutModule
+      - Emoji Math
+      - EnglishTest
+      - Mastermind Simple
+      - KiloTalk
+      - EncryptedDice
+      - AnagramsModule
+      - AppreciateArt
+      - loopover
+      - Binary
+      - MentalMath
+      - booleanVennModule
+      - orderedKeys
+      - digitalRoot
+      - faultyDigitalRootModule
+      - cruelDigitalRootModule
+      - GridlockModule
+      - CrazyTalk
+  PacingEventsEnabled: 1
