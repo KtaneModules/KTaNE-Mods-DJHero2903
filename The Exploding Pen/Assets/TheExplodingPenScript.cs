@@ -234,6 +234,7 @@ public class TheExplodingPenScript : MonoBehaviour {
 
 	void GenerateSolution()
 	{
+		
 		//Visual Setup
 		PenColorIndex = Random.Range(0, Colors.Length);
 		PenRender.material.color = Colors[PenColorIndex];
@@ -248,6 +249,9 @@ public class TheExplodingPenScript : MonoBehaviour {
 		Debug.LogFormat("[The Exploding Pen #{0}] The pen color is {1}.", moduleId, ColorsNames[PenColorIndex]);
 		Debug.LogFormat("[The Exploding Pen #{0}] The ink color is {1}.", moduleId, ColorsNames[MessageColorIndex]);
 		Debug.LogFormat("[The Exploding Pen #{0}] The person who left you the voice message was {1}.", moduleId, MessageText[MessageTextIndex]);
+
+		//Set the current numberof pen clicks to 0.
+		PenClicks = 0;
 
 		//Submit Time Setup
 		if(MessageText[MessageTextIndex] == "Danielstigman"){
